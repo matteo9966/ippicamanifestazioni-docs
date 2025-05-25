@@ -1,0 +1,51 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+/* @font-face {
+  font-family: "Titillium Web";
+  src:url('../../static/fonts/Titillium_Web/')
+} */
+
+:root {
+      /* --bs-secondary95: #041E2A;
+    --bs-secondary90: #08384F;
+    --bs-secondary80: #10709D;
+    --bs-secondary70: #1CA6E8;
+    --bs-secondary60: #6BC5F0;
+    --bs-secondary50: #BAE4F8;
+    --bs-secondary40: #C7E9F9;
+    --bs-secondary30: #D5EFFB;
+    --bs-secondary20: #E3F4FC;
+    --bs-secondary10: #F1FAFE;
+    --bs-secondary05: #FAFDFF; */
+  --ifm-color-primary: #08384F;
+  --ifm-color-primary-dark: #08384F;
+  --ifm-color-primary-darker: #10709D;
+  --ifm-color-primary-darkest: #1CA6E8;
+  --ifm-color-primary-light: #6BC5F0;
+  --ifm-color-primary-lighter: #C7E9F9;
+  --ifm-color-primary-lightest: #D5EFFB;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html,h1,h2,h3,h4,h5,h6,body,p,div,span{
+   font-family: "Titillium Web";
+}
