@@ -25,7 +25,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         'http-equiv': 'Content-Security-Policy',
-        content: "frame-src 'self' https://your-embedding-site.com;",
+        content: "frame-src *;",
       },
     },
   ],
