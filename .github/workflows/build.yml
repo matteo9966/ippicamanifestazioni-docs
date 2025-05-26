@@ -1,4 +1,12 @@
-on: push
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 jobs:
   deploy:
     environment:
@@ -29,7 +37,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-permissions:
-  contents: write
-  pages: write
-  id-token: write
