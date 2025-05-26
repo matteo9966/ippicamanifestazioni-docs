@@ -20,6 +20,16 @@ const config: Config = {
   // baseUrl: '/ippicamanifestazioni/docs/', 
   trailingSlash:false,
 
+  headTags:[
+     {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Content-Security-Policy',
+        content: "frame-src 'self' https://your-embedding-site.com;",
+      },
+    },
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
 
