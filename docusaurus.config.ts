@@ -3,6 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const organizationName = "matteo9966";
+const projectName = "ippicamanifestazioni-docs";
 
 const config: Config = {
   title: 'Guida all\'utilizzo di Ippica manifestazioni',
@@ -11,16 +13,23 @@ const config: Config = {
   
 
   // Set the production url of your site here
-  url: 'http://localhost:3000',
+  url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ippicamanifestazioni/docs/', 
+  baseUrl: `/${projectName}/`, 
+  // baseUrl: '/ippicamanifestazioni/docs/', 
   trailingSlash:false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'greenaus', // Usually your GitHub org/user name.
-  projectName: 'ippicamanifestazioni-docs', // Usually your repo name.
+
+
+  // organizationName: 'greenaus', // Usually your GitHub org/user name.
+  // projectName: 'ippicamanifestazioni-docs', // Usually your repo name.
+  
+  
+  organizationName, // Usually your GitHub org/user name.
+  projectName, // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
