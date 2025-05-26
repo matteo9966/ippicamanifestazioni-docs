@@ -27,7 +27,7 @@ const config: Config = {
   // organizationName: 'greenaus', // Usually your GitHub org/user name.
   // projectName: 'ippicamanifestazioni-docs', // Usually your repo name.
   
-  
+
   organizationName, // Usually your GitHub org/user name.
   projectName, // Usually your repo name.
 
@@ -84,73 +84,77 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    navbar: {
-      title: 'Guida ippica manifestazioni',
-      logo: {
-        alt: 'Ippica manifestazioni logo',
-        src: 'img/favicon.png',
-      },
-      items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
-        // {to: '/guida', label: 'Guida all\'utilizzo', position: 'left'},
-        // {to:'/',label:'Guida all\'utilizzo - Docs', position:'left'}
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'X',
-        //       href: 'https://x.com/docusaurus',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Greenaus`,
-    },
+    // navbar: {
+    //   title: 'Guida ippica manifestazioni',
+    //   logo: {
+    //     alt: 'Ippica manifestazioni logo',
+    //     src: 'img/favicon.png',
+    //   },
+    //   items: [
+    //     // {
+    //     //   type: 'docSidebar',
+    //     //   sidebarId: 'tutorialSidebar',
+    //     //   position: 'left',
+    //     //   label: 'Tutorial',
+    //     // },
+    //     // {to: '/guida', label: 'Guida all\'utilizzo', position: 'left'},
+    //     // {to:'/',label:'Guida all\'utilizzo - Docs', position:'left'}
+    //     // {
+    //     //   href: 'https://github.com/facebook/docusaurus',
+    //     //   label: 'GitHub',
+    //     //   position: 'right',
+    //     // },
+    //   ],
+    // },
+    // footer:false,
+    // footer:{
+
+    // }
+    // footer: {
+    //   style: 'dark',
+    //   links: [
+    //     // {
+    //     //   title: 'Docs',
+    //     //   items: [
+    //     //     {
+    //     //       label: 'Tutorial',
+    //     //       to: '/docs/intro',
+    //     //     },
+    //     //   ],
+    //     // },
+    //     // {
+    //     //   title: 'Community',
+    //     //   items: [
+    //     //     {
+    //     //       label: 'Stack Overflow',
+    //     //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+    //     //     },
+    //     //     {
+    //     //       label: 'Discord',
+    //     //       href: 'https://discordapp.com/invite/docusaurus',
+    //     //     },
+    //     //     {
+    //     //       label: 'X',
+    //     //       href: 'https://x.com/docusaurus',
+    //     //     },
+    //     //   ],
+    //     // },
+    //     // {
+    //     //   title: 'More',
+    //     //   items: [
+    //     //     {
+    //     //       label: 'Blog',
+    //     //       to: '/blog',
+    //     //     },
+    //     //     {
+    //     //       label: 'GitHub',
+    //     //       href: 'https://github.com/facebook/docusaurus',
+    //     //     },
+    //     //   ],
+    //     // },
+    //   ],
+    //   copyright: `Copyright © ${new Date().getFullYear()} Greenaus`,
+    // },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

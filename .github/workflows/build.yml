@@ -30,5 +30,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 permissions:
-    id-token: write
-    pages: write
+  contents: write
+  pages: write
+  id-token: write
