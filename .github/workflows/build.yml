@@ -1,5 +1,4 @@
 on: push
-on: [repository_dispatch]
 jobs:
   deploy:
     environment:
